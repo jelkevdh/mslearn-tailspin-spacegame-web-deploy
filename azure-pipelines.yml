@@ -5,10 +5,10 @@ variables:
   buildConfiguration: 'Release'
 
 stages:
--stage: 'Build'
+- stage: 'Build'
   dislayName: 'Build the web application'
   jobs:
-  -job: 'Build'
+  - job: 'Build'
     displayName: 'Build'
     pool:
       vmImage: 'ubuntu-16.04'
